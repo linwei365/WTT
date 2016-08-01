@@ -13,13 +13,14 @@ import MapKit
  
 class ViewController: UIViewController {
 
-    override func@IBOutlet weak var eventStepper: UIStepper!
- viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override fun@IBAction func stepperOnAction(_ sender: Any) {
+    }
+c didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
