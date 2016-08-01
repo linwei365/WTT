@@ -13,7 +13,8 @@ import MapKit
  
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func@IBOutlet weak var eventStepper: UIStepper!
+ viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
