@@ -29,7 +29,7 @@
                                 </connections>
                             </stepper>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ydk-em-Ad1">
-                                <rect key="frame" x="96" y="491" width="150" height="2"/>
+                                <rect key="frame" x="148" y="499" width="150" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
                         </subviews>
@@ -37,7 +37,6 @@
                     </view>
                     <connections>
                         <outlet property="eventStepper" destination="bbF-aQ-QH1" id="leR-c0-xda"/>
-                        <outlet property="indicatorProgress" destination="8bC-Xf-vdC" id="gDC-Ti-aw1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

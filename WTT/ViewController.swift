@@ -13,8 +13,7 @@ import MapKit
  
 class ViewController: UIViewController {
 
-    override func@IBOutlet var indicatorProgress: UIView!
- viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
