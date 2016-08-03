@@ -16,10 +16,7 @@ class ViewController: UIViewController {
     
     
     
-    override func view@IBOutlet weak var textView: UITextView!
-    
-    
-DidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
