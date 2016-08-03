@@ -13,7 +13,13 @@ import MapKit
  
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    
+    
+    
+    override func view@IBOutlet weak var textView: UITextView!
+    
+    
+DidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
