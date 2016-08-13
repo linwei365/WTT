@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="762" y="936"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="AIA-ch-0G1">
             <objects>
                 <tableViewController id="zKH-BU-QOA" sceneMemberID="viewController">
@@ -48,16 +48,17 @@
                             <outlet property="delegate" destination="zKH-BU-QOA" id="iKI-bL-de0"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="sAs-z9-xZ5"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z0S-kb-qfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1304" y="990"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Item-->
         <scene sceneID="mWS-9F-iay">
             <objects>
                 <collectionViewController id="e0M-2K-Fm1" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="eLD-d1-pbU">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="eLD-d1-pbU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -82,10 +83,11 @@
                             <outlet property="delegate" destination="e0M-2K-Fm1" id="dCV-Bx-d7S"/>
                         </connections>
                     </collectionView>
+                    <tabBarItem key="tabBarItem" title="Item" id="Up2-ea-qvF"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pos-86-MDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="1230"/>
+            <point key="canvasLocation" x="1926" y="848"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aud-qM-lkx">
@@ -158,10 +160,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="zKH-BU-QOA" kind="relationship" relationship="viewControllers" id="KkJ-ae-sFZ"/>
+                        <segue destination="e0M-2K-Fm1" kind="relationship" relationship="viewControllers" id="L7R-C4-yG6"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbj-lc-C4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112" y="349"/>
+            <point key="canvasLocation" x="1110" y="22"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NyH-Fw-5Yd">
