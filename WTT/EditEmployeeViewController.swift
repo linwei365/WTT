@@ -8,6 +8,17 @@
 
 import UIKit
 
+import CoreData
+
+//adding protocol
+
+protocol EditEmployeeViewControllerDelegate {
+    
+    func passVaule()
+    
+    
+}
+
 class EditEmployeeViewController: UIViewController {
 
     override func viewDidLoad() {
