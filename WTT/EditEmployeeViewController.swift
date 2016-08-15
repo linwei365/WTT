@@ -18,6 +18,12 @@ protocol EditEmployeeViewControllerDelegate {
     
     
 }
+@IBOutlet weak var subUIView: SignUpUIView!
+
+@IBOutlet weak var firstnameTextField: UITextField!
+@IBOutlet weak var lastnameTextField: UITextField!
+@IBOutlet weak var pinNumberTextField: UITextField!
+
 
 class EditEmployeeViewController: UIViewController {
 
