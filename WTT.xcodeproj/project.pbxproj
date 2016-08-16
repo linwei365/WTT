@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65198EB21D5008C300D7FBAA /* MyCustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65198EB11D5008C300D7FBAA /* MyCustomAnnotationView.swift */; };
+		65198EB41D6329E700D7FBAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65198EB31D6329E700D7FBAA /* MainViewController.swift */; };
 		6585FD4C1E54EB8600B90C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585FD4B1E54EB8600B90C72 /* AppDelegate.swift */; };
 		6585FD4E1E54EB8600B90C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585FD4D1E54EB8600B90C72 /* ViewController.swift */; };
 		6585FD511E54EB8600B90C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6585FD4F1E54EB8600B90C72 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		65198EB11D5008C300D7FBAA /* MyCustomAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomAnnotationView.swift; sourceTree = "<group>"; };
+		65198EB31D6329E700D7FBAA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6585FD481E54EB8600B90C72 /* WTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6585FD4B1E54EB8600B90C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6585FD4D1E54EB8600B90C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				6585FD4D1E54EB8600B90C72 /* ViewController.swift */,
 				6585FD4F1E54EB8600B90C72 /* Main.storyboard */,
 				65198EB11D5008C300D7FBAA /* MyCustomAnnotationView.swift */,
+				65198EB31D6329E700D7FBAA /* MainViewController.swift */,
 				6585FD551E54EB8600B90C72 /* Assets.xcassets */,
 				6585FD571E54EB8600B90C72 /* LaunchScreen.storyboard */,
 				6585FD5A1E54EB8600B90C72 /* Info.plist */,
@@ -272,6 +275,7 @@
 				6585FD4C1E54EB8600B90C72 /* AppDelegate.swift in Sources */,
 				65198EB21D5008C300D7FBAA /* MyCustomAnnotationView.swift in Sources */,
 				6585FD541E54EB8600B90C72 /* WTT.xcdatamodeld in Sources */,
+				65198EB41D6329E700D7FBAA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
