@@ -105,9 +105,9 @@
 			children = (
 				6585FD4B1E54EB8600B90C72 /* AppDelegate.swift */,
 				6585FD4D1E54EB8600B90C72 /* ViewController.swift */,
-				6585FD4F1E54EB8600B90C72 /* Main.storyboard */,
 				65198EB11D5008C300D7FBAA /* MyCustomAnnotationView.swift */,
 				65198EB31D6329E700D7FBAA /* MainViewController.swift */,
+				6585FD4F1E54EB8600B90C72 /* Main.storyboard */,
 				6585FD551E54EB8600B90C72 /* Assets.xcassets */,
 				6585FD571E54EB8600B90C72 /* LaunchScreen.storyboard */,
 				6585FD5A1E54EB8600B90C72 /* Info.plist */,
