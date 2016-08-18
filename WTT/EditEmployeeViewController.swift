@@ -24,11 +24,17 @@ protocol EditEmployeeViewControllerDelegate {
 @IBOutlet weak var lastnameTextField: UITextField!
 @IBOutlet weak var pinNumberTextField: UITextField!
 
+let moc =  (UIApplication.shared.delegate as! AppDelegate).managedObjectContext
+
+var delegate:EditEmployeeViewControllerDelegate?
 
 class EditEmployeeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }
