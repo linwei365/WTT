@@ -12,7 +12,7 @@ class MyCustomAnnotationView: MKAnnotationView {
 
     let name: string
     let title: string
-    
+    let leftImageViewName: string
 
     /*
     // Only override draw() if you perform custom drawing.
