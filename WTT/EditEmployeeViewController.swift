@@ -18,6 +18,13 @@ protocol EditEmployeeViewControllerDelegate {
     
     
 }
+
+var selectedPin: MKPlacemark?
+var resultSearchController: UISearchController!
+
+let locationManager = CLLocationManager()
+
+
 @IBOutlet weak var subUIView: SignUpUIView!
 
 @IBOutlet weak var firstnameTextField: UITextField!
