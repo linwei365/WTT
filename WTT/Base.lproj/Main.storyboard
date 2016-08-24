@@ -84,7 +84,9 @@
         <!--Split View Controller-->
         <scene sceneID="qZU-HR-3AE">
             <objects>
-                <splitViewController id="tb6-qb-rvO" sceneMemberID="viewController"/>
+                <splitViewController wantsFullScreenLayout="YES" extendedLayoutIncludesOpaqueBars="YES" hidesBottomBarWhenPushed="YES" id="tb6-qb-rvO" sceneMemberID="viewController">
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYf-Ir-gsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2588" y="932"/>
