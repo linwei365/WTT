@@ -148,7 +148,7 @@
             </objects>
             <point key="canvasLocation" x="1986" y="759"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="uhG-0j-Ovg">
             <objects>
                 <viewController id="vJj-cX-gZY" sceneMemberID="viewController">
@@ -161,10 +161,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="6m5-eQ-Xo4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gew-Tx-Ph0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1998" y="1196"/>
+            <point key="canvasLocation" x="2812" y="965"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cmI-xa-Cbz">
@@ -179,6 +180,7 @@
                         <segue destination="e0M-2K-Fm1" kind="relationship" relationship="viewControllers" id="L7R-C4-yG6"/>
                         <segue destination="oxM-RE-K8c" kind="relationship" relationship="viewControllers" id="cDH-42-e1Z"/>
                         <segue destination="rew-BC-ljV" kind="relationship" relationship="viewControllers" id="Hoo-8R-p1x"/>
+                        <segue destination="vJj-cX-gZY" kind="relationship" relationship="viewControllers" id="8er-WK-Knt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbj-lc-C4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
