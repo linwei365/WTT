@@ -44,46 +44,6 @@
             <point key="canvasLocation" x="526" y="906"/>
         </scene>
         <!--Item-->
-        <scene sceneID="uhG-0j-Ovg">
-            <objects>
-                <viewController id="vJj-cX-gZY" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cls-Si-OfD"/>
-                        <viewControllerLayoutGuide type="bottom" id="q4Q-aB-9yl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JL1-O9-uqm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IjH-Zi-5OF">
-                                <rect key="frame" x="67" y="9" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egy-do-Bzg">
-                                <rect key="frame" x="148" y="229" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="time"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yE4-j0-nXq">
-                                <rect key="frame" x="160" y="267" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="click"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYK-4f-407">
-                                <rect key="frame" x="253" y="350" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="sleep"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="6m5-eQ-Xo4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gew-Tx-Ph0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1295" y="905"/>
-        </scene>
-        <!--Table View Controller-->
         <scene sceneID="g1H-RF-L92">
             <objects>
                 <tableViewController id="577-dz-RTL" sceneMemberID="viewController">
@@ -106,10 +66,11 @@
                             <outlet property="delegate" destination="577-dz-RTL" id="4Hh-pk-MRl"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="YCd-kd-1dS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uls-l5-KDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2299" y="1378"/>
+            <point key="canvasLocation" x="1471" y="1261"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="bPb-Mr-G8M">
@@ -235,8 +196,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="oxM-RE-K8c" kind="relationship" relationship="viewControllers" id="cDH-42-e1Z"/>
-                        <segue destination="vJj-cX-gZY" kind="relationship" relationship="viewControllers" id="8er-WK-Knt"/>
                         <segue destination="SW7-Nt-K4Q" kind="relationship" relationship="viewControllers" id="bJU-a9-hn3"/>
+                        <segue destination="577-dz-RTL" kind="relationship" relationship="viewControllers" id="fVH-ZK-ymB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbj-lc-C4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
