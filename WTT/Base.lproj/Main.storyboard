@@ -105,6 +105,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="MIq-Wb-ZAe" kind="show" id="k5G-Ri-FTO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -116,7 +119,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmQ-SP-8Lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2433" y="1368"/>
+            <point key="canvasLocation" x="2246" y="1370"/>
         </scene>
         <!--Item-->
         <scene sceneID="42C-vb-DcM">
