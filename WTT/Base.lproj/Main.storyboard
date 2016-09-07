@@ -9,40 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="mMe-aY-I6l">
-            <objects>
-                <viewController id="oxM-RE-K8c" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Eup-Pj-Qqf"/>
-                        <viewControllerLayoutGuide type="bottom" id="6g0-WX-ddQ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aOO-r5-KEm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3uL-34-8vo">
-                                <rect key="frame" x="67" y="108" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="dil-jH-uoS" appends="YES" id="60s-er-MXz"/>
-                            <outletCollection property="gestureRecognizers" destination="Lpi-fn-aOl" appends="YES" id="V81-z6-vL8"/>
-                            <outletCollection property="gestureRecognizers" destination="OH1-Ax-Crc" appends="YES" id="hTv-Nf-kGg"/>
-                        </connections>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="QlZ-Tg-SCb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dts-U9-TKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pinchGestureRecognizer id="dil-jH-uoS"/>
-                <tapGestureRecognizer id="Lpi-fn-aOl"/>
-                <swipeGestureRecognizer direction="right" id="OH1-Ax-Crc"/>
-            </objects>
-            <point key="canvasLocation" x="526" y="906"/>
-        </scene>
         <!--Table View Controller-->
         <scene sceneID="bPb-Mr-G8M">
             <objects>
@@ -136,7 +102,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D4x-d4-YPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398" y="1299"/>
+            <point key="canvasLocation" x="220" y="901"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Y4-FP-64N">
@@ -170,16 +136,16 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="oxM-RE-K8c" kind="relationship" relationship="viewControllers" id="cDH-42-e1Z"/>
                         <segue destination="SW7-Nt-K4Q" kind="relationship" relationship="viewControllers" id="bJU-a9-hn3"/>
                         <segue destination="VDu-0x-c3w" kind="relationship" relationship="viewControllers" id="AZD-QR-kAF"/>
+                        <segue destination="bAf-Z6-PCP" kind="relationship" relationship="viewControllers" id="9H7-ir-2PO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbj-lc-C4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1110" y="22"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="8UF-ab-cKe">
             <objects>
                 <tableViewController id="bAf-Z6-PCP" sceneMemberID="viewController">
@@ -206,6 +172,7 @@
                             <outlet property="delegate" destination="bAf-Z6-PCP" id="zsU-sB-UMc"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="Zjs-DV-1iG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g75-9K-4lW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
