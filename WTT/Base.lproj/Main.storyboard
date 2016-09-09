@@ -70,6 +70,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9o-yr-BlJ">
+                                <rect key="frame" x="139" y="189" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="xeW-N8-vTr" kind="show" id="OPV-wr-u7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtn-dT-rEf">
+                                <rect key="frame" x="94" y="251" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDZ-N1-SH1">
+                                <rect key="frame" x="139" y="401" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Ikc-pj-Teq" kind="show" id="hlZ-Iy-n7w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -109,6 +130,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmQ-SP-8Lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2246" y="1370"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fdS-KX-dt8">
+            <objects>
+                <viewController id="Ikc-pj-Teq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oSY-3v-ANn"/>
+                        <viewControllerLayoutGuide type="bottom" id="FfM-5U-tNz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A4Y-LX-5db">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUp-ZD-igC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948" y="1465"/>
         </scene>
         <!--Item-->
         <scene sceneID="42C-vb-DcM">
@@ -221,4 +260,7 @@
             <point key="canvasLocation" x="2166" y="616"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OPV-wr-u7E"/>
+    </inferredMetricsTieBreakers>
 </document>
