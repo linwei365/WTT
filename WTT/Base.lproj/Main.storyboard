@@ -177,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JUp-ZD-igC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3084" y="1663"/>
+            <point key="canvasLocation" x="3657" y="1151"/>
         </scene>
         <!--Item-->
         <scene sceneID="42C-vb-DcM">
@@ -237,14 +237,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8h4-FH-HyK">
-                                <rect key="frame" x="164" y="272" width="46" height="30"/>
+                                <rect key="frame" x="164" y="243" width="46" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="jump"/>
+                                <connections>
+                                    <segue destination="Ikc-pj-Teq" kind="show" id="hRN-LS-lor"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2w-Ic-9jt">
                                 <rect key="frame" x="150" y="329" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="MIq-Wb-ZAe" kind="show" id="eS6-Oj-G06"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -331,6 +337,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="hRN-LS-lor"/>
         <segue reference="OPV-wr-u7E"/>
+        <segue reference="eS6-Oj-G06"/>
     </inferredMetricsTieBreakers>
 </document>
