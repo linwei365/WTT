@@ -42,19 +42,6 @@
             </objects>
             <point key="canvasLocation" x="762" y="936"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="en2-lf-3Ir">
-            <objects>
-                <navigationController id="Fgg-gq-YVo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vkN-SL-c4D">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C35-Lk-o7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-508" y="1180"/>
-        </scene>
         <!--Root View Controller-->
         <scene sceneID="Yft-Qk-2Y1">
             <objects>
