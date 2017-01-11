@@ -10,10 +10,7 @@ import UIKit
 
 import MapKit
 
-protocol HandleMapSearch: class {
-    func dropPinZoomIn(_ placemark:MKPlacemark)
-}
-
+ 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
