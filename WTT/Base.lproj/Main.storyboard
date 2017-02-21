@@ -113,19 +113,6 @@
             </objects>
             <point key="canvasLocation" x="2706" y="742"/>
         </scene>
-        <!--Split View Controller-->
-        <scene sceneID="sfr-EJ-ngv">
-            <objects>
-                <splitViewController id="Bt1-UB-Zy6" sceneMemberID="viewController">
-                    <connections>
-                        <segue destination="eZa-ps-Hkf" kind="relationship" relationship="masterViewController" id="9Pa-3d-BeZ"/>
-                        <segue destination="sNR-EI-Ild" kind="relationship" relationship="detailViewController" id="tFO-jj-FpG"/>
-                    </connections>
-                </splitViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4IA-F7-Fl6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1754" y="1068"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="pPc-ro-bJV">
             <objects>
